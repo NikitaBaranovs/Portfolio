@@ -1,2 +1,2 @@
 # Portfolio
-Mans portfolio
+Portfolio autors - Nikita Baranovs
