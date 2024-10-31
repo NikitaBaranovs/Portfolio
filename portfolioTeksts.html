@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="lv-LV">
+<head>
+    <title>Portfolio</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="./portfolioFormāts.css">
+</head>
+<body>
+    <h1>Portfolio</h1>
+    <p>Nikita Baranovs</p>
+    <p>RTU Inženierzinātņu vidusskolas 11. klases skolnieks</p>
+    <h2>Intereses</h2>
+    <p>Matemātika, STEAM kopumā, programmēšana, koris, teātris</p>
+    <h2>IT projekti</h2>
+    <h3>BlitzBerehnung</h3>
+    <p>Programma, kas attīsta prasmi veikt saskaitīšanu, atņemšanu, reizināšanu un dalīšanu galvā. Izstrādes stadijā.</p>
+    <a href="https://github.com/NikitaBaranovs/BlitzB">Saite uz repozitoriju</a>
+    <h1>Sūtīt ziņojumu</h1>
+    <form action="https://formspree.io/f/mdkoeaoa" method="POST">
+        <div class="g-recaptcha" data-sitekey="6LcB73AqAAAAAKZzbffrSpGSA5zseU8seemP-6Hc"></div>
+        <input type="text" name="first" placeholder="Vārds" autocomplete="off" required>
+        <input type="text" name="last" placeholder="Uzvārds" autocomplete="off" required>
+        <input type="email" name="email" placeholder="E-pasta adrese" autocomplete="off" required>
+        <textarea rows="6" columns="70" name="textInput" placeholder="Ziņojums" autocomplete="off" required></textarea>
+        <button type="submit">Nosūtīt</button>
+    </form>
+</body>
